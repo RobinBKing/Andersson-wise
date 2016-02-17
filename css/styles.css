@@ -1,0 +1,77 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* For testing only */
+*:not(html) {
+  /**:not(body):not(html) {*/
+  /*box-sizing:border-box;*/
+  border:1px dashed red;
+}
+
+.columns {
+  min-height: 100px !important;
+}
+/* End for testing */
+
+body {
+  background-color: black;
+  margin: auto;
+  width: 90%;
+  height: 50vh;
+  color: white;
+  padding-top: 2em;
+
+}
+
+.mainPic {
+  width: 100%;
+  height: 50%;
+}
+
+.text, .picture2 {
+  width: 100%;
+  height: 20%;
+  padding-top: 1em;
+  /*margin: 5vh 0 0 0;*/
+}
+
+
+.mainPic, .picture2, .text {
+  border: 10px solid white;
+ }
+
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+
+   .text, .picture2 {
+     width: 50%;
+     height:50%;
+     /*margin: 4.2vh 0 0 0;*/
+   }
+
+   .text {
+     float: left;
+   }
+
+   .picture2 {
+     float: left;
+   }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+  .mainPic {
+    float: left;
+    width: 50%;
+    height:100%;
+  }
+
+.text .picture2 {
+  float: left;
+  margin: 0 auto;
+  }
+}
