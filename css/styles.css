@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 /* For testing only */
-*:not(html) {
-  /**:not(body):not(html) {*/
-  /*box-sizing:border-box;*/
+ *:not(body):not(html) {
   border:1px dashed red;
 }
+
+.tk-minion-pro {
+  font-family:"minion-pro-1","minion-pro-2",sans-serif;
+  }
 
 .columns {
   min-height: 100px !important;
