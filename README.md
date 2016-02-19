@@ -1,6 +1,6 @@
-# Project Template
+# Project Mondrane Wireframe
 
-#### a program that is a template for starting new projects
+#### a program that is a study in the responsive design for web applications
 
 ### By Rob King
 
