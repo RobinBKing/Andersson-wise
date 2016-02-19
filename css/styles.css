@@ -18,30 +18,34 @@
 /* End for testing */
 
 body {
-  background-color: black;
+  background-color: #000;
+  padding-top: 2em;
   margin: auto;
   width: 90%;
   height: 50vh;
   color: white;
-  padding-top: 2em;
-
 }
 
 #backstretch {
-  left: 0px; top: 0px; 
-  position: fixed; 
-  visibility: visible; 
-  overflow: hidden; 
-  z-index: -9990; 
-  display: none; }
-  
-#backstretch img {
-  position: relative; 
-  display: block; 
-  width: 659.334px; 
-  height: 438.9px; 
-  left: -142.167px; 
+  left: 0px;
   top: 0px;
+  position: fixed;
+  visibility: visible;
+  overflow: hidden;
+  z-index: -9990;
+  display: none; }
+
+#backstretch img {
+  position: relative;
+  display: block;
+  width: 659.334px;
+  height: 438.9px;
+  left: -142.167px;
+  top: 0px;
+}
+
+#secondary-text-wrap {
+  top: 21px;
 }
 /*.mainPic {
   width: 100%;
